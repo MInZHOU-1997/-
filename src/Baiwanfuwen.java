@@ -18,6 +18,7 @@ public class Baiwanfuwen {
                 System.out.println(f);
                 break;
             }
+            System.out.println(n);
         }
 
 
