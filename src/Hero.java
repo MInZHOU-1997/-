@@ -6,6 +6,12 @@ public class Hero {
     float hp;
     float armor;
     int moveSpeed;
+    public Hero(String heroName , float heroHP, float heroArmor, int heroMoveSpeed){
+        name = heroName;
+        hp = heroHP;
+        armor = heroArmor;
+        moveSpeed = heroMoveSpeed;
+    }
 
     float getArmor(){
         return armor;
